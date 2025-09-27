@@ -1,0 +1,44 @@
+# ==========================
+# Flutter / Android frontend
+# ==========================
+
+# Flutter build
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# iOS
+Pods/
+DerivedData/
+
+# ==========================
+# Node.js / Backend
+# ==========================
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# npm debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional OS files
+.DS_Store
+Thumbs.db
