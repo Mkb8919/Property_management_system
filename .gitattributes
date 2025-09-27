@@ -1,0 +1,21 @@
+# Flutter / Dart
+*.dart linguist-language=Dart
+
+# Kotlin / Java (Android native)
+*.kt linguist-language=Kotlin
+*.java linguist-language=Java
+
+# Node.js / JavaScript backend
+*.js linguist-language=JavaScript
+*.json linguist-language=JSON
+
+# HTML, CSS, other frontend (if any)
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+
+# Ignore common binary / build files from language stats
+/build/** linguist-vendored
+/.gradle/** linguist-vendored
+/.idea/** linguist-vendored
+/.vscode/** linguist-vendored
+/node_modules/** linguist-vendored
